@@ -1,25 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "http://31.59.235.30:8010/$1" }
-  ],
-  "routes": [
-    {
-      "handle": "error",
-      "status": 502,
-      "src": "/(.*)",
-      "dest": "/error.html"
-    },
-    {
-      "handle": "error",
-      "status": 503,
-      "src": "/(.*)",
-      "dest": "/error.html"
-    },
-    {
-      "handle": "error",
-      "status": 504,
-      "src": "/(.*)",
-      "dest": "/error.html"
-    }
   ]
 }
