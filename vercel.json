@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "http://82.208.23.139:30586/$1" },
+    { "source": "/(.*)", "destination": "http://82.208.23.139:30520/$1" },
     { "source": "/status", "destination": "http://141.11.167.247:6454/status/dockyhost" }
   ]
 }
